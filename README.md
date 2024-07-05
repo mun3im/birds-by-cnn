@@ -13,6 +13,14 @@ Label names: ['1-Mareca penelope' '10- Terpsiphone viridis' '2- American Robin'
  '6- Lanius collurio' '7- Vanellus senegallus'
  '8- Phaethornis-longirostris' '9- Columba oenas']
 
-First we try by Mobilenet x (STFT + MFCC)
+First we try by MobileNet
+
 STFT = 97.24%
+
 MFCC = 87.26%
+
+Then we go ResNet50
+
+STFT = 96.25%
+
+MFCC = 83.71%
